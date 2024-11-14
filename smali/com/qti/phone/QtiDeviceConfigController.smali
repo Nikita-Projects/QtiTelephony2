@@ -230,7 +230,9 @@
     .line 117
     iget-object p2, p0, Lcom/qti/phone/QtiDeviceConfigController;->mContext:Landroid/content/Context;
 
-    invoke-virtual {p2, v0, p1}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
+    const/4 v1, 0x2
+
+    invoke-virtual {p2, v0, p1, v1}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
 
     .line 120
     iget-object p1, p0, Lcom/qti/phone/QtiDeviceConfigController;->mHandler:Landroid/os/Handler;

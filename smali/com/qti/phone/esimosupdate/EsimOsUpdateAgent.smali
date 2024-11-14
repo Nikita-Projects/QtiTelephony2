@@ -1057,7 +1057,9 @@
 
     iget-object p0, p0, Lcom/qti/phone/esimosupdate/EsimOsUpdateAgent;->mBroadcastReceiver:Landroid/content/BroadcastReceiver;
 
-    invoke-virtual {v1, p0, v0}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
+    const v2, 0x2
+
+    invoke-virtual {v1, p0, v0, v2}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
 
     return-void
 .end method
