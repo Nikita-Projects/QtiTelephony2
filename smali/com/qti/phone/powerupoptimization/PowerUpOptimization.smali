@@ -1508,7 +1508,7 @@
 .end method
 
 .method private registerForIntents()V
-    .locals 3
+    .locals 4
 
     .line 448
     iget-boolean v0, p0, Lcom/qti/phone/powerupoptimization/PowerUpOptimization;->mIsIntentRegistered:Z

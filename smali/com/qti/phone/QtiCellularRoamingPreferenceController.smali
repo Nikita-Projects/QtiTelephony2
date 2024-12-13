@@ -736,7 +736,7 @@
 .end method
 
 .method private registerReceivers()V
-    .locals 2
+    .locals 3
 
     .line 110
     new-instance v0, Landroid/content/IntentFilter;

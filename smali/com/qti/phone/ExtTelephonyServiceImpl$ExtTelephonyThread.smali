@@ -41,7 +41,7 @@
 
 # virtual methods
 .method public run()V
-    .locals 3
+    .locals 4
 
     .line 204
     iget-object v0, p0, Lcom/qti/phone/ExtTelephonyServiceImpl$ExtTelephonyThread;->this$0:Lcom/qti/phone/ExtTelephonyServiceImpl;

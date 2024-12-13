@@ -128,7 +128,7 @@
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Lcom/qti/phone/QtiRadioProxy;)V
-    .locals 2
+    .locals 3
 
     .line 51
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -267,9 +267,9 @@
 
     invoke-direct {v0, v1}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
-    const/4 v1, 0x2
+    const/4 v2, 0x2
 
-    invoke-virtual {p1, p2, v0, v1}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
+    invoke-virtual {p1, p2, v0, v2}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
 
     .line 79
     invoke-direct {p0}, Lcom/qti/phone/QtiPrimaryImeiHandler;->sendGetImeiRequest()V

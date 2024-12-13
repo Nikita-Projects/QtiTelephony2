@@ -678,7 +678,7 @@
 .end method
 
 .method public onCreate()V
-    .locals 6
+    .locals 7
 
     .line 58
     const-string v0, "PrimaryCardService"
@@ -783,9 +783,9 @@
 
     invoke-direct {v4, v5}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
-    const/4 v5, 0x2
+    const/4 v6, 0x2
 
-    invoke-virtual {v2, v3, v4, v5}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
+    invoke-virtual {v2, v3, v4, v6}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
 
     const/4 v2, 0x0
 

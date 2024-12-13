@@ -1035,7 +1035,7 @@
 .end method
 
 .method private registerForIntents()V
-    .locals 2
+    .locals 3
 
     .line 96
     new-instance v0, Landroid/content/IntentFilter;
